@@ -1,7 +1,7 @@
 import * as assert from 'assert'
 import * as T from 'fp-ts/lib/Task'
 import { io } from 'fp-ts/lib/IO'
-import { pipe } from 'fp-ts/lib/pipeable'
+import { pipe } from 'fp-ts/lib/function'
 import { bufferTime } from 'rxjs/operators'
 import * as O from 'fp-ts/lib/Option'
 import * as _ from '../src/ObservableOption'

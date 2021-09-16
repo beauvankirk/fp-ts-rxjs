@@ -6,7 +6,7 @@ import * as E from 'fp-ts/lib/Either'
 import * as T from 'fp-ts/lib/Task'
 import { identity } from 'fp-ts/lib/function'
 import * as _ from '../src/Observable'
-import { pipe } from 'fp-ts/lib/pipeable'
+import { pipe } from 'fp-ts/lib/function'
 
 describe('Observable', () => {
   it('of', () => {

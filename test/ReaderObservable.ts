@@ -1,6 +1,6 @@
 import * as assert from 'assert'
 import { array } from 'fp-ts/lib/Array'
-import { pipe } from 'fp-ts/lib/pipeable'
+import { pipe } from 'fp-ts/lib/function'
 import { reader } from 'fp-ts/lib/Reader'
 import * as _ from '../src/ReaderObservable'
 import * as R from '../src/Observable'

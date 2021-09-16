@@ -1,7 +1,7 @@
 import * as assert from 'assert'
 import * as IO from 'fp-ts/lib/IO'
 import { flow } from 'fp-ts/lib/function'
-import { pipe } from 'fp-ts/lib/pipeable'
+import { pipe } from 'fp-ts/lib/function'
 import { bufferTime } from 'rxjs/operators'
 import { observable as OB, observableEither as OBE, readerObservableEither as _ } from '../src'
 import * as O from 'fp-ts/lib/Option'
